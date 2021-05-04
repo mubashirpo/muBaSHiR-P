@@ -87,19 +87,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 ╭─「 ${conn.user.name} 」
 │ Hai, %name!
 │
-│ Tersisa *%limit Limit*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
-│ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
-│
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
-╰────
+│ Developer : ɱ𝐔𝐁🅰𝐬𝐇𝐢𝐑 
+╰───
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
     let body   = conn.menu.body   || '│ • %cmd%islimit'
